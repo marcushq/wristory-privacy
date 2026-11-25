@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wristory – Chính sách quyền riêng tư / Privacy policy</title>
+<meta name="description" content="Wristory keeps your watch collection on your phone. No account, no server, no tracking.">
+<!--
+  Published with GitHub Pages at https://marcushq.github.io/wristory-privacy/ (see
+  docs/PUBLISH_FOR_A_FRIEND.md). The apps link to it from Me → About (AppLinks).
+  Keep it true: when a feature starts sending anything off the phone, update this page,
+  ios-native/WatchCollector/Resources/PrivacyInfo.xcprivacy and the store forms.
+-->
+<style>
+  :root { --bg: #ffffff; --ink: #111111; --muted: #5f6368; --line: #e5e5ea; --accent: #2747b0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --ink: #f2f2f7; --muted: #a1a1aa; --line: #2c2c2e; --accent: #6e8bea; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); font-size: 15px; }
+  nav { display: flex; gap: 12px; margin: 16px 0 24px; }
+  nav a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 8px 8px 0; border-bottom: 1px solid var(--line); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Wristory</h1>
+  <p class="muted">Cập nhật / Last updated: 25/11/2026</p>
+  <nav><a href="#vi">Tiếng Việt</a><a href="#en">English</a></nav>
+
+  <section id="vi" lang="vi">
+    <h1>Chính sách quyền riêng tư</h1>
+    <p>Wristory là nhật ký cho bộ sưu tập đồng hồ của bạn. App không có tài khoản, không có máy chủ riêng, không quảng cáo và không theo dõi bạn. Mọi thứ bạn nhập vào đều nằm trên điện thoại của bạn.</p>
+
+    <h2>Dữ liệu nằm ở đâu</h2>
+    <p>Đồng hồ, ảnh, lượt đeo, ghi chú, bộ sưu tập và cài đặt được lưu trong bộ nhớ riêng của app trên điện thoại. Chúng tôi không nhận, không xem và không lưu bản sao nào của dữ liệu đó.</p>
+
+    <h2>Quyền app xin và lý do</h2>
+    <table>
+      <tr><th>Quyền</th><th>Dùng để</th></tr>
+      <tr><td>Camera</td><td>Chụp ảnh đồng hồ và ảnh đeo tay hằng ngày. Ảnh chỉ lưu trên máy.</td></tr>
+      <tr><td>Thư viện ảnh</td><td>Chọn ảnh có sẵn và lưu collage, story vào thư viện của bạn.</td></tr>
+      <tr><td>Vị trí gần đúng (không bắt buộc)</td><td>Tính năng Lá bài hôm nay xem thời tiết gần bạn để gợi ý đồng hồ.</td></tr>
+      <tr><td>Lịch (không bắt buộc)</td><td>Lá bài hôm nay đọc tên sự kiện hôm nay (ví dụ "họp", "đám cưới") để gợi ý đồng hồ lịch sự. Việc đọc diễn ra trên máy; tên sự kiện không được gửi đi đâu.</td></tr>
+    </table>
+    <p>Bạn có thể từ chối vị trí và lịch; app vẫn dùng được bình thường.</p>
+
+    <h2>Khi nào app kết nối internet</h2>
+    <ul>
+      <li><strong>Thời tiết:</strong> nếu bạn cho phép vị trí, app gửi toạ độ đã làm tròn (sai lệch khoảng 1 km) tới <a href="https://open-meteo.com/">Open-Meteo</a> để lấy nhiệt độ và khả năng mưa trong ngày. Không gửi gì khác.</li>
+      <li><strong>Ảnh mẫu trong danh mục:</strong> khi bạn tìm mẫu đồng hồ, app tải ảnh nhỏ của mẫu đó từ trang của cửa hàng bán mẫu đó. Như mọi trang web, máy chủ của cửa hàng thấy địa chỉ IP của bạn.</li>
+      <li><strong>Sao lưu:</strong> chỉ khi bạn chủ động xuất bản sao lưu hoặc (trên iPhone) chọn một thư mục sao lưu, ví dụ trong iCloud Drive. File sao lưu nằm ở nơi bạn chọn, do Apple hoặc dịch vụ bạn chọn quản lý.</li>
+    </ul>
+
+    <h2>Đọc chữ trên mặt số</h2>
+    <p>Tính năng "Đọc mặt số" nhận dạng chữ ngay trên điện thoại: Apple Vision trên iPhone, Google ML Kit trên Android. Ảnh không được gửi đi. Trên Android, thư viện ML Kit của Google có thể gửi cho Google số liệu chẩn đoán ẩn danh về hoạt động của chính thư viện (ví dụ lỗi, thời gian xử lý), theo <a href="https://developers.google.com/ml-kit/android-data-disclosure">công bố dữ liệu của ML Kit</a>. Số liệu này không chứa ảnh hay nội dung của bạn.</p>
+
+    <h2>Chia sẻ dữ liệu</h2>
+    <p>Chúng tôi không bán, không cho thuê và không chia sẻ dữ liệu của bạn với ai. App không có quảng cáo hay công cụ phân tích hành vi.</p>
+
+    <h2>Xoá dữ liệu</h2>
+    <p>Vào <strong>Tôi → Xoá tất cả</strong> trong app, hoặc gỡ app. Vì dữ liệu chỉ nằm trên máy bạn (và trong các bản sao lưu do bạn tạo), không có gì còn lại ở phía chúng tôi.</p>
